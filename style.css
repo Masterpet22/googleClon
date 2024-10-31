@@ -1,0 +1,84 @@
+header {
+	display: flex;
+	width: 100wh;
+	justify-content: flex-end;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+
+li>a {
+	text-decoration: none;
+	color: black;
+}
+
+li>a>i {
+	width: 100%;
+}
+
+li>a>.perfil {
+	border-radius: 50%;
+	width: 100%;
+}
+
+main {
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .logo-container {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.container .logo {
+	width: 100%;
+}
+
+.campo input {
+	width: 500px;
+	height: 40px;
+	border-radius: 40px;
+	margin: 40px 0;
+}
+
+.botones {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.botones button {
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul {
+	display: flex;
+	list-style: none;
+}
+
+footer ul li {
+	margin: 0 10px;
+}
+
+footer .pie {
+	display: flex;
+	justify-content: space-between;
+	bottom: 0;
+	margin-right: 20px;
+}
